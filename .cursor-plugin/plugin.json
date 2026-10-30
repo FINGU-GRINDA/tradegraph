@@ -1,0 +1,15 @@
+{
+  "name": "tradegraph",
+  "displayName": "TradeGraph",
+  "version": "1.5.0",
+  "description": "Export sales for consumer brands in your agent: market picks, buyer types that reply, follow-up cadence, certifications and shelf prices. Hosted remote MCP, free, no sign-up.",
+  "author": {
+    "name": "GRINDA AI (RINDA)",
+    "email": "sales@grinda.ai"
+  },
+  "homepage": "https://tradegraph.rinda.ai/?lang=en",
+  "repository": "https://github.com/FINGU-GRINDA/tradegraph",
+  "license": "MIT",
+  "keywords": ["export", "trade", "sales", "market-research", "consumer-goods", "mcp"],
+  "logo": "assets/logo.png"
+}

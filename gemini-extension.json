@@ -1,0 +1,11 @@
+{
+  "name": "tradegraph",
+  "version": "1.5.0",
+  "description": "Export sales for consumer brands: market picks, buyer types that reply, follow-up cadence, certifications and shelf prices. Hosted remote MCP, free, no sign-up.",
+  "mcpServers": {
+    "tradegraph": {
+      "httpUrl": "https://tradegraph.rinda.ai/mcp"
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

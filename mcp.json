@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "tradegraph": {
+      "url": "https://tradegraph.rinda.ai/mcp"
+    }
+  }
+}
