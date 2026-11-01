@@ -62,7 +62,7 @@ Then try one of these in a new chat:
 | `find_item` | The HS code for a product name, in 10 languages |
 | `export_workflow` | Step-by-step workflows for certification, FTA origin, documents, payment and buyer checks |
 | `channel_plan`, `image_studio`, `video_studio` | Creator, marketplace and ad-content plans for a market |
-| `live_tools` | Finds paid live-data endpoints for a job (running them needs a TradeGraph account) |
+| `live_tools` | Finds paid live-data endpoints for a job and their per-call prices (running them through TradeGraph needs an account) |
 
 The full, always-current tool list is in [llms.txt](https://tradegraph.rinda.ai/llms.txt).
 
@@ -82,7 +82,7 @@ More in [`examples/`](examples) and the [OpenAPI document](https://tradegraph.ri
 
 - Free and read-only. Without an account TradeGraph never spends money; an optional account adds API keys and prepaid live-data calls.
 - The server only receives the values your AI passes to a tool, such as a product and a country.
-- Reply rates are an anonymous aggregate of export emails sent through RINDA. No single company or person can be identified.
+- Reply rates are an anonymous aggregate of export emails sent through RINDA. Groups with fewer than 5 companies are left out.
 - [Privacy policy](https://tradegraph.rinda.ai/privacy) · [Terms](https://tradegraph.rinda.ai/terms)
 
 ## About
