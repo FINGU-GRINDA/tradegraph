@@ -31,6 +31,7 @@ This repository holds the connection guides, plugin manifests and examples. **Th
 | Client | How |
 | --- | --- |
 | Claude Code | `claude mcp add --transport http --scope user tradegraph https://tradegraph.rinda.ai/mcp` |
+| Cline | In `cline_mcp_settings.json` (MCP Servers, Configure, Configure MCP Servers): `{"mcpServers":{"tradegraph":{"type":"streamableHttp","url":"https://tradegraph.rinda.ai/mcp"}}}`. Keep `type`: without it Cline uses legacy SSE, which this server does not serve |
 | Codex | `codex mcp add tradegraph --url https://tradegraph.rinda.ai/mcp` |
 | Cursor | Install this repository as a plugin, or add [`mcp.json`](mcp.json) to `~/.cursor/mcp.json` |
 | Gemini CLI | `gemini extensions install https://github.com/FINGU-GRINDA/tradegraph` |
